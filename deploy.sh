@@ -1,6 +1,6 @@
 #!/bin/bash
 
-. ./garden-credentials.sh
+. ./system-credentials.sh
 
 BRANCH=$(git branch | sed -n -e 's/^\* \(.*\)/\1/p')
 
